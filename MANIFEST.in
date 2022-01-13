@@ -1,0 +1,3 @@
+graft fpl_optimizer/static
+graft fpl_optimizer/templates
+global-exclude *.pyc
