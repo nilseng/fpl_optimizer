@@ -1,0 +1,19 @@
+autopep8==1.6.0
+certifi==2021.10.8
+charset-normalizer==2.0.10
+click==8.0.3
+Flask==2.0.2
+-e git+https://github.com/nilseng/fpl_optimizer.git@029083a9fe790931ac405974040b27e4b9aed49c#egg=fpl_optimizer
+idna==3.3
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+psycopg2-binary==2.9.3
+pycodestyle==2.8.0
+python-dotenv==0.19.2
+requests==2.27.1
+SQLAlchemy==1.4.29
+toml==0.10.2
+urllib3==1.26.8
+watchdog==2.1.6
+Werkzeug==2.0.2
