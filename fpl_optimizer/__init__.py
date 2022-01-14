@@ -20,6 +20,13 @@ def create_app(test_config=None):
 
     init_db(app)
 
+    @app.route("/")
+    def index():
+        return """
+        <h1>Fantasy Premier League Optimizer</h1>
+        <p>Generate your FPL team automatically based on your selection of parameters</p>
+        """
+
     # a simple page that says hello
     @app.route('/hello')
     def hello():
